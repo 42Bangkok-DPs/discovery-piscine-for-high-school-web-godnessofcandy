@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#first-parallax {
+    background-image: url(' https://live.staticflickr.com/65535/52987758597_2477fae754_6k.jpg');
+}
+
+#second-parallax {
+    background-image: url('https://live.staticflickr.com/65535/52988358861_dbce30b276_6k.jpg');
+}
+
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    background-size: 50vh
+}
+
+.black-block {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1em;
+position: relative;
+}
