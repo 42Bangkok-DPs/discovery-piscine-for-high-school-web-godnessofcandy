@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+
+    </style>
+</Head>
+
+<body>
+    <div>
+        <input type="number" id="num1" name="num1">
+    </div>
+    <div>
+        <select id="opt">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+    </div>
+    <div>
+        <input type="number" id="num2" name="num2">
+    </div>
+    <div>
+        <button id="btn" onclick="calc()">Try Me!</button>
+    </div>
+
+    <script>
+        document.getElementById("Btn"); {
+            var num1 = document.getElementById("num1").value;
+            var opt = document.getElementById("opt").value;
+            var num2 = document.getElementById("num2").value;
+        }
+            function PositiveInteger(value) {
+                return parseInt(value) >= 0;
+            }
+            if (!PositiveInteger(num1) || !PositiveInteger(num2)) {
+                alert("Error :(");
+                return;
+            }
+            function calc(num1, opt, num2) {
+                switch (opt) {
+                    case '+':
+                        return num1 + num2;
+                    case '-':
+                        return num1 - num2;
+                    case '*':
+                        return num1 * num2;
+                    case '/':
+                        if (num2 == 0) {
+                            alert("It's over 9000!");
+                            return null;
+                        } else {
+                            return num1 / num2;
+                        }
+                    case '%':
+                        if (num2 == 0) {
+                            alert("It's over 9000!");
+                            return null;
+                        } else {
+                            return num1 % num2;
+                        }
+                }
+            }
+            var sum = calc(parseInt(num1), opt, parseInt(num2));
+
+            if (sum != null) {
+                alert("Result: " + sum);
+                console.log("Result: " + sum);
+            }
+            setInterval(function () {
+                alert("Please, use me...");
+            }, 30000);
+        
+    </script>
+
+</body>
+
+</html>
