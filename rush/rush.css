@@ -1,0 +1,158 @@
+@font-face {
+    font-family: HYWenHei;
+    src: url(genshin-impact.woff2) format("woff2"),
+        url(genshin-impact.woff) format("woff"),
+        url(genshin-impact.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Genshin Impact";
+    src: url(genshin-impact.woff2) format("woff2"),
+        url(genshin-impact.woff) format("woff"),
+        url(genshin-impact.ttf) format("truetype");
+}
+
+header {
+    box-shadow: 0px 0px 0px 8px #4682b4;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h3 {
+    color: #2980b9; 
+}
+
+li {
+    color: #34495e; 
+}
+
+.bgc {
+    font-family:"Genshin Impact";
+    background-color: #f0f8ff;
+    color: #333; 
+}
+
+.bg {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    background-image: url('https://wallpapers.com/images/hd/fantasy-cityscape-overlook-z1vijknhn7bf2iz4.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.fonttime {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fontgen {
+    font-family: "Genshin Impact";
+}
+
+.fonthel {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+
+.balloon {
+    width: 600px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 0 auto 10px;
+    box-shadow: 0px 0px 8px #d0f8ff;
+    padding-top: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.pink {
+    background-color: #d0f8ff;
+}
+
+.balloonbtn {
+    display: inline;
+    width: 85px;
+    height: 38px;
+    border-radius: 18px;
+    margin: 1%;
+}
+
+.hydro {
+    color: #dff7ff;
+    background-color: #00bfff;
+    box-shadow: 0px 0px 8px #2ebbea;
+}
+
+.cryo {
+    color: #cce8ff;
+    background-color: #4682b4;
+    box-shadow: 0px 0px 8px #4a6b87;
+}
+
+.certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#cert {
+    margin: 20px;
+}
+
+.main {
+    padding-top: 150px;
+}
+.navbar {
+    overflow:auto;
+    position: fixed;
+    width: 100%;
+    display: block;
+  }
+.certificate {
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+    text-align: center;
+    width: 250px; 
+    padding: 10px; 
+}
+
+.pi {
+    background-color: #ffffff; 
+    border: 2px solid #ccc; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.profile img {
+    border: 5px solid black; 
+    width: 230px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+
+#edu {
+    margin: 20px 0;
+    background-color: #ecf0f1; 
+    padding: 20px;
+    border-radius: 10px; 
+    margin: 20px;
+}
+
+#contact {
+    margin: 20px 0;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+    margin: 20px;
+}
